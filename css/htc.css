@@ -1,0 +1,433 @@
+*{
+	margin:0;
+	padding:0;	
+}
+
+html{
+	font-size:62.5%;
+	scroll-behavior:smooth;
+}
+
+body{
+	font-family: "ヒラギノ角ゴ Pro W3" , "游ゴシック体" , "YuGothic" , sans-serif;
+}
+.top{
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	z-index:10;
+}
+
+
+.center{
+	width:1000px;
+	margin:0 auto;
+}
+
+h1{
+	text-align:center;
+	margin: 40px 0;
+}
+#main{
+	text-align:center;
+}
+
+	
+	
+
+p.box{
+	border-top: 0.5px solid #000000;
+	margin:0;
+}
+#nav {
+    overflow: hidden;
+	width: 1000px;
+	margin: 0 auto;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 60px;
+}
+
+#nav ul {
+	  list-style: none;
+	  width:100%; 
+	  height:60px;
+	padding : 0;
+		
+		
+
+}
+
+#nav li {
+  width: 220px;
+  height:60px;
+  text-align: center;
+  float: left;
+  font-size:2.4rem;
+  line-height:0.7;
+
+}
+#lim{
+	margin:0 170px;
+}
+#nav .navsubtittle{
+	
+	font-size:1rem;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  display:block;
+  width:100%;
+  height:45px;
+   padding: 15px 0 0 0;
+}
+p.box{
+	position:relative;
+	top:-90px;
+	left:1000px;
+	border-bottom: 0.5px solid #000000;
+	margin:0;
+}
+p#skin{
+	text-align:left;
+	padding:20px;
+	margin:0 5px;
+	font-size:30px;
+}
+p#skin span{
+	color:#00bfff
+}
+p#care,#skin span{
+	font-family:"ヒラギノ明朝 ProN" , serif;
+}
+p#care{
+	text-align:center;
+	padding:90px;
+	margin:0 20px;
+	font-size:30px;
+	line-height:10px;
+}
+p#care span{
+	color:#ff0000
+}
+div.woman{
+	text-align:right;
+	margin: -160px 0;
+	padding:100px;
+}
+div.change{
+	text-align:left;
+	padding:0 90px;
+	margin:-250px 0;
+	font-size:45px;
+}
+div.change{
+	font-family:凸版文久見出しゴシック , sans-serif;
+	color:#000000;
+}
+div.beautiful{
+	font-size:23px;
+	text-align:left;
+	padding:5px 25px;
+	margin:20px 0;
+}
+div.bottle{
+	text-align:center;
+	font-size:30px;
+	color:#ffffff;
+	background-color:#000000;
+	padding:10px;
+	margin-top: 30px;
+	width: 100%;	
+}
+
+.flower{
+	font-size:20px;	
+	height:750px;
+}
+
+.flower .spray{
+	width:503px;
+	height:700px;
+	padding:50px 0 0 77px;	
+	float:left;
+}
+.flower .spray_text1{
+	width:340px;
+	float:right;
+	height:700px;
+	padding:50px 0 0 0;
+	font-size:2rem;
+}
+.flower .spray_text1 p{
+	margin:0 0 55px 0;
+}
+.flower .spray_text2{
+	border-right 100px solid #000000;
+	width:340px;
+}
+.flower .spray_text2 span{
+	text-decoration:underline;
+}
+
+.flower .spray_text3 p{
+	margin:0 0 55px 0;
+}
+.flower .spray_text3{
+	width:340px;
+	height:700px;
+}
+.flower .spray_text3 span{
+	text-decoration:underline;
+	
+}
+.clear{
+	clear:both;
+}
+.seramid{
+	margin-top:160px;
+	margin-left:80px;
+}
+
+.sabpic{
+	margin-top:100px;
+	
+}
+.limited_top{
+	text-align:center;
+	margin-top:100px;
+	padding-bottom:150px;
+}
+.himawari{
+	width: 1000px;
+	height: 580px;
+	background: url(../img/himawari_bk.jpg) right top no-repeat;
+	background-size: 65%;
+}
+.himawari_pic{
+	float:left;
+	margin-left: 40px;
+}
+.himawari_text{
+	float:right;
+	width:540px;
+	margin-left:90px;
+}
+.himawari_text span{
+	color:#ffff00;
+	font-size:48px;
+}
+
+.himawari_text .summer{
+	font-size:48px;
+	margin-bottom:40px;	
+}
+.himawari_text .summer{
+	border-bottom:solid;
+	border-color:#ffff00;
+	border-width:3px;
+	display:inline-block;
+}
+.himawari_text .text{
+	font-size:20px;
+}
+clear{
+	clear:both;
+}
+.kosumosu{
+	width: 1000px;
+	height: 590px;
+	background: url(../img/kosumosu_bk.jpg) right top no-repeat;
+	background-size: 65%;
+
+}
+.kosumosu_pic{
+	float:left;
+	margin-top:130px;	
+}
+.kosumosu_text{
+	float:left;
+	width:440px;
+	margin-left:190px;
+	margin-top:150px;
+}
+.kosumosu_text span{
+	color:#c71585;
+	font-size:48px;
+}
+
+.kosumosu_text .autumn{
+	font-size:48px;
+	margin-bottom:40px;	
+}
+.kosumosu_text .autumn{
+	border-bottom:solid;
+	border-color:#c71585;
+	border-width:3px;
+	display:inline-block;
+}
+.kosumosu_text .text{
+	font-size:20px;
+}
+clear{
+	clear:both;
+}
+
+.marguerite{
+	width: 1000px;
+	height: 590px;
+	background: url(../img/marguerite_bk.jpg) right top no-repeat;
+	background-size: 65%;
+	z-index:1px;
+
+
+
+}
+.marguerite_pic{
+	float:left;	
+	margin-top:130px;	
+
+}
+.marguerite_text{
+	float:left;
+	width:440px;
+	margin-left:190px;
+	margin-top:190px;	
+
+}
+.marguerite_text span{
+	color:#6495ed;
+	font-size:48px;
+}
+
+.marguerite_text .winter{
+	font-size:48px;
+	margin-bottom:40px;	
+}
+.marguerite_text .winter{
+	border-bottom:solid;
+	border-color:#6495ed;
+	border-width:3px;
+	display:inline-block;
+}
+.marguerite_text .text{
+	font-size:20px;
+}
+clear{
+	clear:both;
+}
+.recommended{
+	margin-top:150px;
+  width:800px;
+  margin-left:-350px;
+  text-align:center;
+  font-size:48px;
+}
+.carelotion{
+	height:380px;
+	
+
+}
+.carelotion_pic{
+	float:left;	
+	margin-left:-100px;
+	bottom:20px;
+}
+.hand_pic{
+	float:left;
+	top:-20px;
+	margin-left:40px;
+	width:150px;
+
+}
+
+.lotionpack{
+	margin-top:20px;
+}
+
+.moisture_pic{
+	float:left;
+	margin-left:-100px;
+	bottom:20px;
+}
+.cotton_pic{
+	margin-top:40px;
+	float:left;
+	top:40px;
+	margin-left:90px;
+	width:150px;
+}
+
+.beauty{
+	margin-top:20px;
+}
+
+.beauty_pic1{
+	float:left;
+	margin-left:-100px;
+	bottom:20px;
+}
+.beauty_pic2 {
+	float:left;
+	top:40px;
+	margin-left:67px;
+	width:294px;
+}
+	
+.clearfix:after{
+	content:"";
+	display:block;
+	clear:both;
+}
+.contact{
+	text-align:center;
+	height:40px;
+	margin:250px 0;
+}
+.sns{
+	text-align:center;
+	margin-top:200px;
+}
+
+.officialsns{
+	text-align:center;
+	font-size:20px;
+	height:160px;
+	margin:40px;
+}
+#guide{
+	float:left;
+	font-size:20px;
+	height:50px;
+	width:250px;
+}
+#guide a:hover{
+	color:#4169e1
+}
+#information{
+	float:left;
+	font-size:20px;
+	height:50px;
+	width:250px;
+}
+#information a:hover{
+	color:#4169e1
+}
+
+	
+#quetion{
+	float:left;
+	font-size:20px;
+	height:50px;
+	width:250px;
+}
+#quetion a:hover{
+	color:#4169e1
+}
+
+
+	
+
